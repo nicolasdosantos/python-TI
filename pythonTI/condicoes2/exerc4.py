@@ -1,6 +1,7 @@
 num1 = float(input("Insira um numero com casa decimal"))
 num2 = float(input("Insira um numero para fazer a conta"))
-conta = int(input("Qaul metodo vc quer usar?Adição(1), Subtração(2), Multiplicação(3), Divisão(4)"))
+conta = int(input("Qaul metodo vc quer usar?\nAdição(1),\nSubtração(2),\nMultiplicação(3),"
+                  "\nDivisão(4)"))
 adicao = num1 + num2
 sub = num1 - num2
 multi = num1*num2
