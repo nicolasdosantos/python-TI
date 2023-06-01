@@ -1,4 +1,4 @@
-NomeV = ""
+NomeV = "n"
 idadeV = 0
 qMulher = 0
 
@@ -8,7 +8,7 @@ for i in range(3):
         nome = input("Qual seu nome?")
         idade = int(input("Qual sua idade?"))
         if idade > idadeV:
-            nomeV = nome
+            NomeV = nome
             idadeV = idade
     elif g == 1:
         nome = input("Qual seu nome?")
