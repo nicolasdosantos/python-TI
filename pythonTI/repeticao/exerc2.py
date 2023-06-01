@@ -12,5 +12,5 @@ for i in range(1, cliente+1):
     elif t > 39:
         print("Sua temperatura esta com febre alta")
 media = soma/cliente
-print(f"A media de temperatura é de {media} e a quantidade de cliente é de {client}")
+print(f"A media de temperatura é de {media} e a quantidade de cliente é de {cliente}")
 
