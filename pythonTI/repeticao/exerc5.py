@@ -2,7 +2,7 @@ NomeV = "n"
 idadeV = 0
 qMulher = 0
 
-for i in range(3):
+for i in range(8):
     g = int(input("Qual é seu genero?\nFeminino(1)\nMasculino(2)"))
     if g == 2:
         nome = input("Qual seu nome?")
