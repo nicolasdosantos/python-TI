@@ -17,9 +17,20 @@
 #       break
 #    Res = str(input('Deseja continuar?S/N\nR:'))
 
+#|while True:
+#    ini = str(input('Digite comecar'))
+#    if ini != "comecar":
+#        print("Não digitou certo reveja")
+#    else:
+#        break
+
+nota = 0
+media = 0
 while True:
-    ini = str(input('Digite comecar'))
-    if ini != "comecar":
-        print("Não digitou certo reveja")
-    else:
+    notas = int(input('Digite sua nota '))
+    nota += notas
+    media += 1
+    if media >=5:
+        cal= nota/media
+        print(f"Sua media é de {cal}")
         break
