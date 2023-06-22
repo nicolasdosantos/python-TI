@@ -16,20 +16,20 @@ thanos = 0
 for i in range(teste):
 
     # AQUI TEMOS A PERGUNTA EM FORMATO DE STRING PARA SABER QUAL VILÃO SERÁ VERIFICADO
-    vilão = str(input("Então vamos seguir. Qual vilão você gostaria de analisar?Digite o numero 0 para sair antes do desejado ou ocorra algo inesperado\n")).lower()
+    vilao = str(input("Então vamos seguir. Qual vilão você gostaria de analisar?Digite o numero 0 para sair antes do desejado ou ocorra algo inesperado\n")).lower()
 
     # A PARTIR DAQUI TEMOS A VERIFICAÇÃO E O PRINT COM A INFORMAÇÃO SE ELE JA FOI OU NÃO CAPTURADO
-    if vilão == "coringa":
-        print(f"O vilão escolido foi o {vilão}, até onde meus dados indicam e foram atualizados você já capturou ele meu heroi, e foram um total de {coringa} vezes\n")
-    elif vilão == "pistoleiro":
-        print(f"O vilão escolido foi o {vilão}, até onde meus dados indicam e foram atualizados você já capturou ele meu heroi, e foram um total de {pistoleiro} vezes\n")
-    elif vilão == "pinguin":
-        print(f"O vilão escolido foi o {vilão}, até onde meus dados indicam e foram atualizados você já capturou ele meu heroi, e foram um total de {pinguin} vezes\n")
-    elif vilão == "charada":
-        print(f"O vilão escolido foi o {vilão}, até onde meus dados indicam e foram atualizados você já capturou ele meu heroi, e foram um total de {charada} vezes\n")
-    elif vilão == "thanos":
-        print(f"Meu cavalheiro das trevas, voce esta indo para outros universos caçar vilão?{vilão}, ainda não foi capturado nenhuma vez\n")
-    elif vilão == "0":
+    if vilao == "coringa":
+        print(f"O vilão escolido foi o {vilao}, até onde meus dados indicam e foram atualizados você já capturou ele meu heroi, e foram um total de {coringa} vezes\n")
+    elif vilao == "pistoleiro":
+        print(f"O vilão escolido foi o {vilao}, até onde meus dados indicam e foram atualizados você já capturou ele meu heroi, e foram um total de {pistoleiro} vezes\n")
+    elif vilao == "pinguin":
+        print(f"O vilão escolido foi o {vilao}, até onde meus dados indicam e foram atualizados você já capturou ele meu heroi, e foram um total de {pinguin} vezes\n")
+    elif vilao == "charada":
+        print(f"O vilão escolido foi o {vilao}, até onde meus dados indicam e foram atualizados você já capturou ele meu heroi, e foram um total de {charada} vezes\n")
+    elif vilao == "thanos":
+        print(f"Meu cavalheiro das trevas, voce esta indo para outros universos caçar vilão?{vilao}, ainda não foi capturado nenhuma vez\n")
+    elif vilao == "0":
         print(f"Saindo do programa, até breve cavalheiro das trevas\n")
         break
     else:
@@ -40,24 +40,24 @@ for i in range(teste):
 c = str(input("Todas as verificações que você desejava foram feitas, você gostaria de atualizar o programa?")).lower()
 
 if c == "sim":
-        vilão2 = str(input("Qual vilão você gostaria de atualizar?Digite 0 para sair\n"))
-        if vilão2 == "coringa":
-            q = int(input(f"Quantas vezes você capturou a mais o {vilão2}? o numero atual é de {coringa}\n"))
-            coringa += q
-        elif vilão2 == "thanos":
-            q = int(input(f"Quantas vezes você capturou a mais o {vilão2}? o numero atual é de {thanos}\n"))
-            thanos += q
-        elif vilão2 == "pinguin":
-            q = int(input(f"Quantas vezes você capturou a mais o {vilão2}? o numero atual é de {coringa}\n"))
-            pinguin += q
-        elif vilão2 == "charada":
-            q = int(input(f"Quantas vezes você capturou a mais o {vilão2}? o numero atual é de {charada}\n"))
-            charada += q
-        elif vilão2 == "pistoleiro":
-            q = int(input(f"Quantas vezes você capturou a mais o {vilão2}? o numero atual é de {pistoleiro}\n"))
-            pistoleiro += q
-        elif vilão2 == "0":
-            print("Saindo do programa\n")
-            break
+    vilao2 = str(input("Qual vilão você gostaria de atualizar?Digite 0 para sair\n"))
+    if vilao2 == "coringa":
+        q = int(input(f"Quantas vezes você capturou a mais o {vilao2}? o numero atual é de {coringa}\n"))
+        coringa += q
+    elif vilao2 == "thanos":
+        q = int(input(f"Quantas vezes você capturou a mais o {vilao2}? o numero atual é de {thanos}\n"))
+        thanos += q
+    elif vilao2 == "pinguin":
+        q = int(input(f"Quantas vezes você capturou a mais o {vilao2}? o numero atual é de {coringa}\n"))
+        pinguin += q
+    elif vilao2 == "charada":
+        q = int(input(f"Quantas vezes você capturou a mais o {vilao2}? o numero atual é de {charada}\n"))
+        charada += q
+    elif vilao2 == "pistoleiro":
+        q = int(input(f"Quantas vezes você capturou a mais o {vilao2}? o numero atual é de {pistoleiro}\n"))
+        pistoleiro += q
+    elif vilao2 == "0":
+        print("Saindo do programa\n")
+        break
 else:
     print("Então acho que por hoje é só meu heroi até a proxima")
