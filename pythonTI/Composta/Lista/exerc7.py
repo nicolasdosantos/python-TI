@@ -7,5 +7,6 @@ for i in range(p):
     if x == 0:
         break
     elif x not in num:
-        num.sort()
-        print(num)
+        num.append(x)
+num.sort()
+print(num)
