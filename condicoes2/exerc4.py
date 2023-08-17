@@ -13,4 +13,3 @@ elif conta == 3:
     print(f"Seu calculo de multiplicação deu {multi}")
 elif conta == 4:
     print(f"Seu calculo de divisão deu {div}")
-
