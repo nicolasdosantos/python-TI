@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="31e8cdec-fc11-4823-8b87-25919c4d6c78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-TI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/entrada de dados.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/entrada de dados/exerc1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/entrada de dados/exerc1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/entrada de dados/exerc2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/entrada de dados/exerc2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/entrada de dados/exerc3.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/entrada de dados/exerc3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/entrada de dados/exerc4.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/entrada de dados/exerc4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/entrada de dados/exerc5.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/entrada de dados/exerc5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/exemplos/exemplo.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/exemplos/exemplo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/exemplos/exercicio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/exemplos/exercicio1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/exemplos/exercicio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/exemplos/exercicio2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/exemplos/exercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/exemplos/exercicio3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python(TI)/exemplos/exercicio4.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/exemplos/exercicio4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo e Pacote/aula.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonTI/Composta/Dicionario/aula.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/Composta/Dicionario/aula.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonTI/Composta/Lista/aula.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/Composta/Lista/aula.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonTI/Composta/Lista/exerc3.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/Composta/Lista/exerc3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonTI/Composta/Tupla/exerc3.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/Composta/Tupla/exerc3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonTI/repeticao/while/exerc1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonTI/repeticao/while/exerc1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Aluno/Documents/GitHub/python-TI/pythonTI"
+    "last_opened_file_path": "C:/Users/Aluno/Documents/GitHub/python-TI"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

@@ -1,6 +1,6 @@
 num = []
 
-p = int(input("Quantas vezes voce ira querer testar o programa\n"))
+p = int(input("Quantas vezes voce ira querer testar o programa?\n"))
 
 for i in range(p):
     num.append(int(input("Digite um numero inteiro\n")))
