@@ -11,8 +11,20 @@
 #print(gato)
 
 
-from Uteis import *
+#from Uteis import *
 
-pizza = emoji_pizza()
+#pizza = emoji_pizza()
 
-print(pizza)
+#print(pizza)
+
+#from Pacotes import OpMat
+
+#raiz = OpMat.raiz_quadrada(3249)
+
+#print(raiz)
+
+#from Pacotes import *
+
+#desenho = Desenho.desenhar_peixe()
+
+#print(desenho)
