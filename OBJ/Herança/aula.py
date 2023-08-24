@@ -33,6 +33,4 @@ class CarroCitroen(Carro,Carro2):
 
 
 Car = CarroCitroen("Cactus", "Azul", 2, 2022)
-Car1 = CarroCitroen("C3", "Branco")
-Car2 = CarroCitroen("Cactus", "Azul")
-print("O nome do carro 1 é", Car1.nome)
+print("O nome do carro 1 é", Car.nome)
