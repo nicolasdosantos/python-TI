@@ -9,7 +9,7 @@ class Refrigerante(Bebida):
         super().__init__(nome, tipo,latinha)
         self.latinha = latinha
 
-        
+
 class Cafe(Bebida):
     def __init__(self,nome,tipo):
         super().__init__(nome,tipo, acucar)
