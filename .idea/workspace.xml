@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31e8cdec-fc11-4823-8b87-25919c4d6c78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Interface-Grafica/Desafio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface-Grafica/aula.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Snake/snake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Snake/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface-Grafica/Exerc/Careca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface-Grafica/Exerc/Exerc1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface-Grafica/Exerc/Exerc2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface-Grafica/Exerc/Exerc3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface-Grafica/Exerc/Exerc4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface-Grafica/Exerc/Exerc5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
