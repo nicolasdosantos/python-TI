@@ -7,8 +7,8 @@ def MostrarTela2():
 
 
 def AbrirTela1():
-    from Tela1 import MostrarTela1
     Janela2.withdraw()
+    from Tela1 import MostrarTela1
     MostrarTela1()
 
 Janela2 = CriarJanela("Janela 2","400x400",2)
