@@ -1,8 +1,15 @@
 from Modulos import *
 import customtkinter as Tk
 
+
+def MostrarTela1():
+    Janela.deiconify()
+
+
 def AbrirTela2():
-    pass
+    from Tela2 import MostrarTela2
+    Janela.withdraw()
+    MostrarTela2()
 
 
 Janela = CriarJanela("Janela","400x400",1)
