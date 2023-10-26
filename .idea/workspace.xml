@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31e8cdec-fc11-4823-8b87-25919c4d6c78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Interface-Grafica/BDTemp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface-Grafica/eye.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface-Grafica/eye2.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface-Grafica/roupa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoginObj/BDTemp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface-Grafica/Modulo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interface-Grafica/Modulo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interface-Grafica/TelaLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interface-Grafica/TelaLogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginObj/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoginObj/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

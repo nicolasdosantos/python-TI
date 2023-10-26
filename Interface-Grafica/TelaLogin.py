@@ -24,14 +24,18 @@ def AlterarTema():
 
 
 def Clique():
-    var1 = input1.get()
-    var2 = input2.get()
-    Resposta= AutenticarBD(var1,var2)
+    Login = input1.get()
+    Senha = input2.get()
+    Resposta= AutenticarBD(Login,Senha)
     match Resposta:
         case "Certo":
-            pass
+            texto2 = CriarLabel(janela, "Login feito com sucesso", 4, 0)
+            texto2.grid(columnspan=12)
+            texto2.configure(text_color="Green", font=("Arial", 16))
         case "Errado!":
-            pass
+            texto2 = CriarLabel(janela, "Login / Senha incorretos", 4, 0)
+            texto2.grid(columnspan=12)
+            texto2.configure(text_color="Red", font=("Arial", 16))
 
 
 def Cadastro():
