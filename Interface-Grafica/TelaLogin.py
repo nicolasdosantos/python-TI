@@ -26,25 +26,13 @@ def AlterarTema():
 def Clique():
     var1 = input1.get()
     var2 = input2.get()
-    if var1 not in login.keys():
-        texto2 = CriarLabel(janela, "Login / Senha incorretos", 4, 0)
-        texto2.grid(columnspan=12)
-        texto2.configure(text_color="Red", font=("Arial", 16))
+    Resposta= AutenticarBD(var1,var2)
+    match Resposta:
+        case "Certo":
+            pass
+        case "Errado!":
+            pass
 
-    elif var1 in login.keys():
-        texto2 = CriarLabel(janela, "Login feito com sucesso", 4, 0)
-        texto2.grid(columnspan=12)
-        texto2.configure(text_color="Green", font=("Arial", 16))
-
-    if var2 not in login.values():
-        texto2 = CriarLabel(janela, "Login / Senha incorretos", 4, 0)
-        texto2.grid(columnspan=12)
-        texto2.configure(text_color="Red", font=("Arial", 16))
-
-    elif var2 in login.values():
-        texto2 = CriarLabel(janela, "Login feito com sucesso", 4, 0)
-        texto2.grid(columnspan=12)
-        texto2.configure(text_color="Green", font=("Arial", 16))
 
 def Cadastro():
     Abas_Login.set("Cadastro")
@@ -143,9 +131,6 @@ def Cadastrar():
         Lb_Cad_Erro.configure(text="Seu cadastro foi efetuado")
     else:
         Lb_Cad_Erro.configure(text="Confira os campos novamente")
-
-
-
 
 
 
