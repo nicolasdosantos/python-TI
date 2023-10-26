@@ -1,5 +1,6 @@
 from Modulos import *
 import customtkinter as Tk
+from BDTemp import *
 
 
 ###########   Funções   ###########
@@ -35,11 +36,29 @@ def LimparCax():
 
 
 def Cadastrar():
-    pass
+    Login = Cx_Cad_Login.get()
+    Nome = Cx_Cad_Nome.get()
+    CPF = Cx_Cad_CPF.get()
+    Genero = Cb_Cad_Genero.get()
+    Data = Cx_Cad_DataNas.get()
+    Senha = Cx_Cad_Senha.get()
+    if (Login and Nome and CPF and Genero !="Selecione" and Data and Senha):
+        CadastrarBD(Login, Nome, CPF, Genero, Data,Senha)
+        LimparCax()
+        Lb_Cad_Erro.configure(text='Cadastro efetuado!!')
+    else:
+        Lb_Cad_Erro.configure(text="Confira os campos acima")
+
 
 def Autenticar():
-    pass
-
+    Login = Cx_Cad_Login.get()
+    Senha = Cx_Cad_Senha.get()
+    Resultado = AutenticarBD(Login, Senha)
+    match Resultado:
+        case "Certo":
+            Lb_Erro.configure(text="Logado")
+        case "Errado":
+            Lb_Erro.configure(text="Login ou Senha incorreto")
 
 
 
