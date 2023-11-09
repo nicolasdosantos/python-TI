@@ -16,6 +16,7 @@ def CadastrarBD(Login,Nome,CPF,Genero,Data,Senha):
    ListaPessoa.append(Obj)
 
 
+
 def AutenticarBD(Login,Senha):
    if not ListaPessoa:
        return "Vazia"

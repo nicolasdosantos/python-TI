@@ -10,22 +10,21 @@ tk.set_default_color_theme("themes/violet.json")
 def AlterarTema():
     if SwTemas.get()==1:
         tk.set_appearance_mode("dark")
-        texto1.configure(text_color="white")
+        Titulo.configure(text_color="white")
         check.configure(text_color="white")
         imageFrame.configure(fg_color="#161515")
         contentFrame.configure(fg_color=janela.cget("bg"))
-
     else:
         tk.set_appearance_mode("light")
-        texto1.configure(text_color="black")
+        Titulo.configure(text_color="black")
         check.configure(text_color="black")
         imageFrame.configure(fg_color="#F6F4F4")
         contentFrame.configure(fg_color=janela.cget("bg"))
 
 
 def Clique():
-    Login = input1.get()
-    Senha = input2.get()
+    Login = Login_input.get()
+    Senha = Senha_input.get()
     Resposta= AutenticarBD(Login,Senha)
     match Resposta:
         case "Certo":
@@ -41,8 +40,6 @@ def Clique():
 def Cadastro():
     Abas_Login.set("Cadastro")
 
-
-login = {"Nicolas": "12345", "Miguel": "12345", "Henri": "12345", "Basinga": "12345", "Muliro": "12345", "Lara": "12345"}
 
 
 janela = CriarJanela("Janela", "800x350", 1)
@@ -62,11 +59,12 @@ contentFrame.configure(fg_color=janela.cget("bg"))
 Abas_Login = CriarAbas(contentFrame,1,1,300,300,"Login","Cadastro",)
 Abas_Login.grid(columnspan=13)
 
-texto1 = CriarLabel(Abas_Login.tab("Login"), "LOGIN", 2, 0)
-texto1.grid(columnspan=12)
-texto1.configure(text_color="Black", font=("Arial",30))
-input1 = CriarCaixaDeTexto(Abas_Login.tab("Login"),Largura=200, Altura=30, Linha=5, Coluna=6, Texto="Insira seu nome")
-input2 = CriarCaixaDeTexto(Abas_Login.tab("Login"),Largura=200, Altura=30, Linha=6, Coluna=6, Texto="Insira sua senha",Modo="Senha")
+
+Titulo = CriarLabel(Abas_Login.tab("Login"), "LOGIN", 2, 0)
+Titulo.grid(columnspan=12)
+Titulo.configure(text_color="Black", font=("Arial",30))
+Login_input = CriarCaixaDeTexto(Abas_Login.tab("Login"),Largura=200, Altura=30, Linha=5, Coluna=6, Texto="Insira seu nome")
+Senha_input = CriarCaixaDeTexto(Abas_Login.tab("Login"),Largura=200, Altura=30, Linha=6, Coluna=6, Texto="Insira sua senha",Modo="Senha")
 check = CriarCheck(Abas_Login.tab("Login"),"Lembre de Mim", 7,6)
 check.configure(text_color="Black", font=("Arial", 16))
 check.get()
@@ -80,24 +78,10 @@ BtnCadastro= CriarBotao(Abas_Login.tab("Login"), "Cadastre-se", Cadastro, 30, 10
 
 # ------------------------ Cadastro ---------------------------
 
-def AlterarTema():
-    if SwTemas.get() == 1:
-        Tk.set_appearance_mode("dark")
-    else:
-        Tk.set_appearance_mode("light")
-
-
-def Cadastro():
-    Abas_Login.set("Cadastro")
 
 
 def Voltar():
     Abas_Login.set("Login")
-
-
-def Limpar():
-    Lb_Cad_Erro.configure(text=" ")
-    Lb_Erro.configure(text=" ")
 
 
 
@@ -109,7 +93,6 @@ def LimparCax():
    Cx_Cad_CPF.delete(0,"end")
    Cx_Cad_DataNas.delete(0,"end")
 
-
    caixas_texto = [Cx_Cad_ConfSenha, Cx_Cad_Senha, Cx_Cad_Login, Cx_Cad_Nome, Cx_Cad_CPF, Cx_Cad_DataNas]
    for cx in caixas_texto:
        cx.delete(0, "end")
@@ -117,9 +100,6 @@ def LimparCax():
 
    Cb_Cad_Genero.set("Selecione")
 
-
-class Cx_Cad_Data:
-    pass
 
 
 def Cadastrar():
@@ -176,6 +156,7 @@ Lb_Cad_Senha = CriarLabel(Abas_Login.tab("Cadastro"), "Senha: ", 5, 5)
 Lb_Cad_Senha.grid(sticky="S")
 Cx_Cad_Senha = CriarCaixaDeTexto(Abas_Login.tab("Cadastro"), 150, 30, 5, 6, "Senha", Modo="Senha")
 Cx_Cad_Senha.grid(sticky="S")
+
 
 # Confirmar Senha
 Lb_Cad_ConfSenha = CriarLabel(Abas_Login.tab("Cadastro"), "Confirme sua senha: ", 6, 5)
